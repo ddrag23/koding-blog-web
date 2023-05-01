@@ -7,7 +7,7 @@ const router = useRouter();
 function login() {
   state.login(form);
   if (state.isLogin) {
-    router.push({ path: "/" });
+    router.push({ path: "/admin" });
   }
 }
 definePageMeta({

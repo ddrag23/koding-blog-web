@@ -30,7 +30,7 @@ const buttons = [
       >
         <font-awesome-icon icon="fa-solid fa-bars" class="text-2xl" />
       </button>
-      <div v-if="route.path == '/'">
+      <div v-if="route.path == '/' || route.path == '/admin'">
         <p class="text-2xl font-bold">Hello Everyone</p>
         <small class="text-slate-400">Lets check data today</small>
       </div>
