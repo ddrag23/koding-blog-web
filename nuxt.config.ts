@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   css: [
     "~/assets/css/main.css",
     "@fortawesome/fontawesome-svg-core/styles.css",
+    "devextreme/dist/css/dx.light.css"
   ],
   postcss: {
     plugins: {
@@ -14,6 +15,11 @@ export default defineNuxtConfig({
   },
   elementPlus: {
     icon: "ElIcon",
+  },
+  runtimeConfig: {
+    public: {
+      BASE_URL: process.env.NUXT_PUBLIC_BASEURL_API,
+    },
   },
   app: {
     head: {

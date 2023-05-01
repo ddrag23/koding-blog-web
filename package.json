@@ -30,6 +30,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@pinia/nuxt": "^0.4.9",
+    "devextreme": "22.2.6",
+    "devextreme-vue": "22.2.6",
     "pinia": "^2.0.35"
   }
 }
